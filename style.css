@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffb699;
+}
+.main {
+  width: 800px;
+  height: 600px;
+  margin: 3rem auto;
+  border-radius: 30px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.imgbx {
+  background-image: url(/image/bg.jpg);
+  background-size: 25rem;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  background-color: rgba(0, 0, 26, 0.77);
+  width: 250px;
+  height: 100px;
+  padding: 18px 0;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #fff;
+ 
+}
+.head ul {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 1rem;
+  flex-direction: row;
+  list-style-type: none;
+}
+.head a {
+  text-decoration: none;
+  padding: 0 7px;
+  margin: 0 5px;
+  font-family: Cordia New (Body CS);
+  font-size: 14px;
+  font-weight: bold;
+  /* align-items: right; */
+}
+.hlog:hover{
+  background-color: #0021f9;
+  border-radius: 5px;
+  width: 80px;
+  height: 25px;
+  text-align: center;
+}
+.hregist:hover{
+  background-color: #0021f9;
+  border-radius: 5px;
+  width: 80px;
+  height: 25px;
+  text-align: center;
+}
+.head .holg .hregist a:hover {
+  transition: 0.4s;
+  color: red;
+  width: 50px;
+  height: 20px;
+  background-color: #0021f9;
+}
+.content {
+  background-color: skyblue;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+}
+span {
+  color: #0021f9;
+}
+.background {
+  width: 280px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5rem 7rem;
+  border-radius: 30px;
+}
+.text {
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+}
+.check {
+  margin: 0.5rem 0;
+}
+.form {
+  padding: 1rem 0;
+}
+.form input {
+  border: none;
+  width: 15rem;
+  height: 30px;
+  margin: 10px 0;
+  padding: 20px 20px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.664);
+}
+.login input {
+  width: 15rem;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0c0;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.login p {
+  text-align: center;
+  color: rgb(46, 52, 52);
+  margin: 1rem 0;
+}
+.login input:hover {
+  transition: 0.4s;
+  background-color: rgb(8, 0, 255);
+  color: #fff;
+}
+.login p a {
+  text-decoration: none;
+  color: #000;
+  font-style: bold;
+}
+.login p a:hover {
+  transition: 0.4s;
+  color: red;
+}
